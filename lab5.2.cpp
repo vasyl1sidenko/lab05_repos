@@ -50,7 +50,7 @@ int main()
 void S(const double x, const double eps, int &n, double &s)
 {
     n = 0;
-    double a = x; // перший член ряду при n=0: (-1)^0 * x^(1)/(1) = x
+    double a = x;
     s = a;
 
     do {
